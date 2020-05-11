@@ -1,0 +1,37 @@
+.header{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  grid-column-gap: 10px;
+  width: 50%;
+  align-items: center;
+  justify-items: start;
+  & button{
+    width: 50px;
+    border-radius: 5px;
+    border: 0px;
+    padding: 5px 10px;
+    cursor: pointer;
+    background: #ffa800;
+    transition: .2s;
+    &:hover{
+      transition: .2s;
+      transform: scale(1.03);
+      background: #fefd10;
+    }
+  }
+  & input{
+    color:white;
+    border-radius: 5px;
+    border: 0px;
+    background: #253845;
+    padding: 5px;
+    border: 3px solid #ffffff;
+  }
+}
+select{
+  color:white;
+  border: 3px solid #ffffff;
+  padding: 10px;
+  background-color: #253845 ;
+  width: 200px;
+}

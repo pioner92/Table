@@ -1,0 +1,23 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: Montserrat;
+    outline: none;
+    text-decoration: none;
+}
+
+body{
+    background: #253845;
+}
+#root{
+    height: 100%;
+}
+.App{
+    padding: 0px 20px 0px 20px;
+    display: grid;
+    grid-template-rows: 1fr 5fr;
+    grid-row-gap: 10px;
+    height: 100vh;
+
+}
+
